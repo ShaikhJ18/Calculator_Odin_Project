@@ -4,17 +4,29 @@
     align-items: center;
     border: 5px solid red;
 }
+.display-bar{
+    font-size: 80px;
+}
 
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.decimal{
     background-color: #505050;
     color: white;
     font-size: 100px;
-    border-radius: 40%;
+    border-radius: 50%;
     border-color: #505050;
 }
-.multiply,.subtract,.addition{
+.multiply,.subtract,.addition,.equal{
     background-color: #FF9500;
     color: white;
     font-size: 100px;
     border-radius: 200px;
+}
+.one:hover{
+    filter: brightness(50%);
+}
+.clear,.percentage,.positive-negative{
+    font-size: 80px;
+    background-color: #D4D4D2;
+    border-color: #D4D4D2;
+    border-radius: 50%;
 }

@@ -1,0 +1,5 @@
+.screen-box,.seven-nine,.four-six,.one-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

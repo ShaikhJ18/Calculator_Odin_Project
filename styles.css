@@ -1,5 +1,36 @@
-.screen-box,.seven-nine,.four-six,.one-three{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.screen-box,.seven-nine,.four-six,.one-three,.zero-decimal{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+body{
+    background-color: black;
+}
+.one,.two,.three,.four,.five,.six,.zero,.decimal,.seven,.eight,.nine{
+    margin: 10px 10px 10px 10px;
+}
+.screen{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+button{
+    height: 110px;
+    width: 110px;
+    background-color: #505050;
+    border-color: #505050;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 45px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #505050;
+    box-shadow: 0 0 4px white;
+}
+button:hover{
+    filter: brightness(110%);
+}
+button:active{
+    filter: brightness(200%);
 }

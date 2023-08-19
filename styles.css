@@ -39,3 +39,9 @@ button:active{
 .clear-button,.positive-negative-button,.percentage-button{
     background-color: #D4D4D2;
 }
+.zero-button{
+    height: 110px;
+    width: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+}

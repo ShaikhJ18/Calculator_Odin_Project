@@ -8,7 +8,7 @@ body{
     background-color: #1C1C1C;
 }
 .one,.two,.three,.four,.five,.six,.zero,.decimal,.seven,.eight,.nine,.add,.multiply,.subtract,.equal,.clear,.positive-negative,.percentage,.divide{
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
 }
 .screen-content{
     font-family: 'Roboto', sans-serif;
@@ -27,8 +27,9 @@ button{
     border: 1px solid;
     border-color: #505050;
 }
+
 button:hover{
-    filter: brightness(110%);
+    filter: brightness(150%);
 }
 button:active{
     filter: brightness(200%);
@@ -41,6 +42,7 @@ button:active{
     color: #1C1C1C;
 }
 .zero-button{
+    border-radius: 55px;
     height: 110px;
     width: 250px;
     padding-right: 30px;
@@ -53,10 +55,15 @@ button:active{
     justify-content: center;
 }
 footer{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Roboto',sans-serif;
     color: white;
 }
 .big-box{
+    margin-top: 90px;
+    border-radius: 50px;
     background-color: black;
+    margin-right: 650px;
+    margin-left: 650px;
+    padding-bottom: 50px;
 }
